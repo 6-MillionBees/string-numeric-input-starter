@@ -8,7 +8,7 @@
 # Assign the user's responses to variables
 # Use concatenation to build an output string that displays the user's answers
 # Please use correct capitalization, spelling, and punctuation in your code
-
+print('task 1:')
 user_name = input('Please enter your first name: ')
 career = input('What program do you attend in Career Tech? ')
 
@@ -20,7 +20,7 @@ print('Hi ' + user_name.title() + '! Welcome to Career Tech! I hope you have fun
 # On the next line of code, use the int( ) function to convert the user's response to an integer (a number that doesn't have a decimal point)
 # Display a sentence that contains the user's current age
 # Challenge: Have Python add 10 years to the user's current age; then display a sentence that says what the user's age will be ten years from now
-
+print('task 2:')
 age = float(input('how old are you? '))
 age10 = int(age) + 10
 
@@ -39,6 +39,7 @@ print(f'and you will be {age10} years old in 10 years')
 # HINT: The Python str(  ) function might come in handy here!
 # On the next line of code, use an f-string to display a sentence that says how many people are in the user's immediate family
 
+print('task 3:')
 family = int(input('how many people do you have in your family? '))
 
 print('you have ' + str(family) + ' people in your family')
@@ -54,6 +55,7 @@ print(f'you have {family} people in your family')
 # Also show you know how to use an f-string to display the user's height in both inches and centimeters
 
 def heightfunc():
+    print('task 4:')
     height = float(input('Please enter your hight in inches: '))
     CONVERSION_FACTOR = 2.54
     cm_height = height * CONVERSION_FACTOR
@@ -62,5 +64,5 @@ def heightfunc():
 heightfunc()
 
 # Task 5
-# Comment
-# Comment
+
+print('and I didn\'t see any instructions about a fifth task')
