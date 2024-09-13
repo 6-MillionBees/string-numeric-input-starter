@@ -9,6 +9,14 @@
 # Use concatenation to build an output string that displays the user's answers
 # Please use correct capitalization, spelling, and punctuation in your code
 
+
+# Task 2
+# prompt the user to enter their current age
+# Assign their response to a variable age
+# On the next line of code, use the int( ) function to convert the user's response to an integer (a number that doesn't have a decimal point)
+# Display a sentence that contains the user's current age
+# Challenge: Have Python add 10 years to the user's current age; then display a sentence that says what the user's age will be ten years from now
+
 age = float(input('how old are you? '))
 age10 = int(age) + 10
 
