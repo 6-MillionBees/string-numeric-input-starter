@@ -17,7 +17,7 @@ if age == 1:
 elif age < 1:
     print(f'You are a baby. How are you writing this?!') # it did make it overly complicated though
 else: 
-    print(f'You are {int(age)} years old')
+    print(f'You are {int(age)} years old') # like making input a float only to make it an integer later? Wayyyyy to complicated I did NOT need to do that
 
 print(f'and you will be {age10} years old in 10 years')
 
