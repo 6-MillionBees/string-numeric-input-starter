@@ -9,6 +9,10 @@
 # Use concatenation to build an output string that displays the user's answers
 # Please use correct capitalization, spelling, and punctuation in your code
 
+user_name = input('Please enter your first name: ')
+career = input('What program do you attend in Career Tech? ')
+
+print('Hi ' + user_name.title() + '! Welcome to Career Tech! I hope you have fun learning in ' + career.title())
 
 # Task 2
 # prompt the user to enter their current age
