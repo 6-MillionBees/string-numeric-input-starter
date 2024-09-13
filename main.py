@@ -1,4 +1,4 @@
-# Arden Boettcher + Isaac Bissonette
+# Arden Boettcher
 # 9/13/24
 # string numeric input starter main
 
