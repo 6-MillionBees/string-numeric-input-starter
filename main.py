@@ -1,4 +1,4 @@
-# Arden Boettcher
+# Arden B & Issac
 # 9/13/24
 # string numeric input starter main
 
