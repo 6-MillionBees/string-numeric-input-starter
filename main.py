@@ -1,6 +1,6 @@
-# Student name
-# Current date
-# String & Numeric Input 
+# Arden Boettcher
+# 9/13/24
+# string numeric input starter main
 
 # Task 1
 # Comment
