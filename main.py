@@ -9,18 +9,17 @@
 # Use concatenation to build an output string that displays the user's answers
 # Please use correct capitalization, spelling, and punctuation in your code
 
+age = float(input('how old are you? '))
+age10 = int(age) + 10
 
+if age == 1:
+    print(f'You are {int(age)} year old. How are you writing this?') # I felt like making the grammar proper, you can't be saying years if it isn't plural
+elif age < 1:
+    print(f'You are a baby. How are you writing this?!') # it did make it overly complicated though
+else: 
+    print(f'You are {int(age)} years old')
 
-
-# Task 2
-# prompt the user to enter their current age
-# Assign their response to a variable age
-# On the next line of code, use the int( ) function to convert the user's response to an integer (a number that doesn't have a decimal point)
-# Display a sentence that contains the user's current age
-# Challenge: Have Python add 10 years to the user's current age; then display a sentence that says what the user's age will be ten years from now
-
-
-
+print(f'and you will be {age10} years old in 10 years')
 
 # Task 3
 # Using the input( ) and int ( ) functions in a single line of code, prompt the user to enter the number of people in his/her family
@@ -28,7 +27,11 @@
 # HINT: The Python str(  ) function might come in handy here!
 # On the next line of code, use an f-string to display a sentence that says how many people are in the user's immediate family
 
+family = int(input('how many people do you have in your family? '))
 
+print('you have ' + str(family) + ' people in your family')
+
+print(f'you have {family} people in your family')
 
 # Task 4
 # Using the input( ) and float ( ) functions in a single line of code, prompt the user to enter their height in inches (so 60 for 5'10" tall)
@@ -38,9 +41,13 @@
 # HINT: The Python str(  ) function might come in handy here!
 # Also show you know how to use an f-string to display the user's height in both inches and centimeters
 
+def heightfunc():
+    height = float(input('Please enter your hight in inches: '))
+    CONVERSION_FACTOR = 2.54
+    cm_height = height * CONVERSION_FACTOR
+    print(f'you are {height} inches tall and {cm_height} centimeters tall!')
 
-
-
+heightfunc()
 
 # Task 5
 # Comment
